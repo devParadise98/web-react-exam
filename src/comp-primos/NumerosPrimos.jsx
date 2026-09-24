@@ -46,7 +46,7 @@ const NumerosPrimos = ({ autoAvance = false }) => {
       <h4 className="mb-3">Números Primos {autoAvance ? '(Avance Automático)' : ''}</h4>
       <div className="card text-center p-4 shadow" style={{ maxWidth: 320 }}>
         <p className="display-3 fw-bold mb-1">{primos[indice]}</p>
-        <p className="text-muted mb-0">{primos.length}</p>
+        <p className="text-muted mb-0">Nº {primos.length}</p>
       </div>
       <div className="mt-3">
         <button className="btn btn-secondary me-2" onClick={retroceder}>Retroceder</button>

@@ -2,11 +2,11 @@ import { Link, Route, Routes } from 'react-router-dom';
 import Inicio from './Inicio';
 import GestionAlumnos from './comp-alumnos/GestionAlumnos';
 import NumerosPrimos from './comp-primos/NumerosPrimos';
-import TableroKanban from './comp-kanban/TableroKanban';
+import { TableroKanban } from './comp-kanban/TableroKanban';
 import BusquedaProductos from './comp-productos/BusquedaProductos';
 import ListadoProductos from './comp-productos/ListadoProductos';
 import DetalleProducto from './comp-productos/DetalleProducto';
-
+ 
 const Navega = () => {
   return (
     <div>

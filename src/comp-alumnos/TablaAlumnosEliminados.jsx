@@ -1,4 +1,4 @@
-const TablaAlumnosEliminados = ({ alumnos }) => {
+export const TablaAlumnosEliminados = ({ alumnos }) => {
   return (
     <>
       <p className="lead fs-6 mt-4">Alumnos eliminados ({alumnos.length})</p>
@@ -33,5 +33,3 @@ const TablaAlumnosEliminados = ({ alumnos }) => {
     </>
   );
 };
-
-export default TablaAlumnosEliminados;

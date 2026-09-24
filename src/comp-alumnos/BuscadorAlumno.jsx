@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const BuscadorAlumno = ({ onBuscar }) => {
+export const BuscadorAlumno = ({ onBuscar }) => {
   const [search, setSearch] = useState('');
 
   const handleChange = (e) => {
@@ -21,5 +21,3 @@ const BuscadorAlumno = ({ onBuscar }) => {
     </div>
   );
 };
-
-export default BuscadorAlumno;

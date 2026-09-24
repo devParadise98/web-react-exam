@@ -12,10 +12,12 @@ class BusquedaProductos extends Component {
 
   render() {
     const { search } = this.state;
-    const filtrados = productos.filter((producto) =>
-      producto.nombre.toLowerCase().includes(search.toLowerCase()) ||
-      producto.marca.toLowerCase().includes(search.toLowerCase())
-    );
+    const filtrados = productos.filter((producto) => {
+      return (
+        producto.nombre.toLowerCase().includes(search.toLowerCase()) ||
+        producto.marca.toLowerCase().includes(search.toLowerCase())
+      );
+    });
 
     return (
       <main className="container mt-5">
